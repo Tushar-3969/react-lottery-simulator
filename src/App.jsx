@@ -4,7 +4,7 @@ import {sum} from "./helper.js"
 function App() {
 
   let winCondition = (ticket)=> {
-    return ticket.every((el) => el===ticket[0]);
+    return sum(ticket)===15;
   }
 
   return (

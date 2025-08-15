@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Lottery.css"
-import { getTicket,sum } from "./helper";
+import { getTicket} from "./helper";
 import Ticket from "./Ticket";
 
 
@@ -15,11 +15,11 @@ export default function Lottery({n=3,winCodition}){
 
     return (
         <div className="wholeTicket">
-            <h1>Lottery Game!</h1>
+            <h1 className="lottery-title">Lottery Simulator!</h1>
             <Ticket ticket={ticket}/>
             <br />
             <button onClick={buyTicket} className="button btn" >Buy Ticket</button>
-            {isWin ?<p>congratulations,You won!</p>:null}
+            {isWin ?<p className="winMessage">congratulations,You won!</p>:null}
         </div>
     )
 }

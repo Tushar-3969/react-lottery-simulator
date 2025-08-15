@@ -1,14 +1,20 @@
-# 🎲 React Lottery Simulator
+# 🎰 Lottery Simulator (React)
 
-A fun, interactive lottery simulator built with React.  
-Generate random 3-digit tickets and check if the **sum of digits equals 15** to win the prize! 🎉
+A fun **Lottery Ticket Simulator** built with React where you can "buy" tickets and check if you win based on a winning condition.
 
 ---
 
-## 🚀 Features
-- Generate a random 3-digit lottery ticket
-- Automatically calculate the sum of digits
-- Check win condition: sum of digits = **15**
+## 📌 Features
+- 🎟 Generate random tickets with customizable numbers.
+- 🏆 Win condition check – you win if the sum of ticket numbers matches the target.
+- 🔄 Click **Buy Ticket** to get a new ticket.
+- 📱 Simple, clean UI with separate components.
+
+---
+## 🛠 Tech Stack
+- **React** (Frontend library)
+- **JavaScript (ES6+)**
+- **CSS** for styling
 
 ---
 ## 📚 Learning Outcomes While building this project, I learned:
@@ -18,19 +24,7 @@ Generate random 3-digit tickets and check if the **sum of digits equals 15** to 
 - How to write **reusable functions** for logic like random number generation and sum calculation 
 - How to manage **state and props** effectively
 
----
-
-## 🛠 Tech Stack
-- **React** (Frontend library)
-- **JavaScript (ES6+)**
-- **CSS** for styling
-
----
-
-## 📦 Installation & Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Tushar-3969/react-lottery-simulator.git
-   cd react-lottery-simulator
-
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/yourusername/lottery-simulator.git
+cd lottery-simulator

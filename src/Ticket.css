@@ -1,12 +1,26 @@
-.Ticket{
-    border: 1px solid pink;
-    border-radius: 14px;
-    width: 17rem;
-    margin-bottom: 1rem;
+.Ticket {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 25px 0;
+    box-shadow: 0 10px 30px rgba(240, 147, 251, 0.3);
+    position: relative;
+    overflow: hidden;
 }
-span{
-    margin-left: 3rem;
+
+.Ticket p {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
-p{
-    margin-left: 6rem;
+
+.ticket-numbers {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
 }
