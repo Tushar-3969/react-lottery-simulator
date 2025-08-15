@@ -1,0 +1,22 @@
+.wholeTicket{
+    margin-left: 35rem;
+    margin-top: 8rem;
+}
+
+.Ticket{
+    border: 1px solid black;
+    border-radius: 14px;
+    width: 15rem;
+}
+
+span{
+    margin-left: 3.5rem;
+}
+
+.button{
+    margin-left: 5rem;
+}
+
+p{
+    margin-left: 1rem;
+}
