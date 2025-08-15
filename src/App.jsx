@@ -1,11 +1,15 @@
-
 import Lottery from "./Lottery.jsx"
+import {sum} from "./helper.js"
 
 function App() {
 
+  let winCondition = (ticket)=> {
+    return ticket.every((el) => el===ticket[0]);
+  }
+
   return (
     <>
-      <Lottery/>
+      <Lottery n={3} winCodition={winCondition}/>  
     </>
   )
 }

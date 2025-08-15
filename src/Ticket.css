@@ -1,0 +1,12 @@
+.Ticket{
+    border: 1px solid pink;
+    border-radius: 14px;
+    width: 17rem;
+    margin-bottom: 1rem;
+}
+span{
+    margin-left: 3rem;
+}
+p{
+    margin-left: 6rem;
+}

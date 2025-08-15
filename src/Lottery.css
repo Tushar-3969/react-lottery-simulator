@@ -3,14 +3,8 @@
     margin-top: 8rem;
 }
 
-.Ticket{
-    border: 1px solid black;
-    border-radius: 14px;
-    width: 15rem;
-}
-
-span{
-    margin-left: 3.5rem;
+h1{
+    margin-left: 2rem;
 }
 
 .button{
@@ -18,5 +12,5 @@ span{
 }
 
 p{
-    margin-left: 1rem;
+    margin-right: 2rem;
 }

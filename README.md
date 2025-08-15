@@ -9,9 +9,14 @@ Generate random 3-digit tickets and check if the **sum of digits equals 15** to 
 - Generate a random 3-digit lottery ticket
 - Automatically calculate the sum of digits
 - Check win condition: sum of digits = **15**
-- Color-coded win/lose messages
-- Simple, responsive UI
-- Easy to extend with animations, confetti, and sounds
+
+---
+## 📚 Learning Outcomes While building this project, I learned:
+- How to write code in **React hierarchy** for clear and maintainable structure 
+- How to write code that is **scalable** and **reusable** 
+- How to organize and structure a **scalable React project** 
+- How to write **reusable functions** for logic like random number generation and sum calculation 
+- How to manage **state and props** effectively
 
 ---
 
